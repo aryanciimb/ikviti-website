@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKVITI — Sip. Savour. Stay.</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav id="navbar">
+    <a href="#home" class="nav-logo">
+        <img src="images/logo.png" alt="IKVITI Logo">
+    </a>
+    <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-item active">HOME</a>
+        <a href="#about" class="nav-item">ABOUT</a>
+        <a href="#menu" class="nav-item">MENU</a>
+        <a href="#order" class="nav-item">ORDER</a>
+        <a href="#contact" class="nav-item">CONTACT</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<section id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <div class="hero-tag">Welcome to IKVITI</div>
+        <h1>Where Every Coffee<br>Tells a <em>Story</em></h1>
+        <p class="hero-sub">A vision for a brighter future — a society built on equity and sustainability, powered by the magic of specialty coffee.</p>
+        <div class="hero-btns">
+            <a href="#menu" class="btn-primary">Explore Menu</a>
+        </div>
+    </div>
+    <div class="hero-scroll-hint">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<section class="marquee-strip">
+    <div class="marquee-track">
+        <span>fresh brews ✦ cozy corners ✦ matcha dreams ✦ artisan pastries ✦ good vibes only ✦ date spot approved ✦ wifi & chill ✦ fresh brews ✦ cozy corners ✦ matcha dreams ✦ artisan pastries ✦ good vibes only ✦ date spot approved ✦ wifi & chill ✦</span>
+    </div>
+</section>
+
+<section id="about" class="about-section">
+    <div class="section-label">
+        <span class="label-dot"></span>
+        <span>ABOUT US</span>
+    </div>
+    <div class="about-grid">
+        <div class="about-text-col">
+            <h2>What is <em>IKVITI</em>?</h2>
+            <p>Derived from "ik" (meaning one), it symbolizes unity and collective spirit. It imagines a world where everyone has equitable access to resources and rights, thus fostering oneness. The term also sounds like "equity," reflecting ownership and shared responsibility of our planet. Ultimately, it symbolizes a space that is uniquely yours, a place of belonging and shared purpose.</p>
+            <p>To us, it's more than just a beverage; it's a bridge uniting small-scale farmer, city dwellers, and our joint crusade against the climate crisis. Specialty coffee isn't merely a passing trend; it's a movement gaining momentum. It's embraced by the vibrant, ambitious youth of India, congregating in chic cafes, savoring some of the world's finest brews.</p>
+            <a href="https://www.instagram.com/ikviticoffee" target="_blank" class="insta-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                <b>Follow us on Instagram</b>
+            </a>
+        </div>
+        <div class="about-images-col">
+            <div class="about-img-stack">
+                <img src="images/cafe1.jpg" alt="IKVITI Interior" class="about-img img-1">
+                <img src="images/cafe2.jpg" alt="IKVITI Ambiance" class="about-img img-2">
+                <img src="images/logo.png" alt="IKVITI Logo" class="about-logo-badge">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery-section">
+    <div class="section-label">
+        <span class="label-dot"></span>
+        <span>GALLERY</span>
+    </div>
+    <h2 class="gallery-heading">A Glimpse Inside <em>IKVITI</em></h2>
+    <div class="gallery-grid">
+        <div class="gallery-item gi-1"><img src="images/gallery1.jpg" alt="Gallery 1"></div>
+        <div class="gallery-item gi-2"><img src="images/gallery2.jpg" alt="Gallery 2"></div>
+        <div class="gallery-item gi-3"><img src="images/gallery3.jpg" alt="Gallery 3"></div>
+        <div class="gallery-item gi-4"><img src="images/gallery4.jpg" alt="Gallery 4"></div>
+    </div>
+</section>
+
+<section id="menu" class="menu-section">
+    <div class="section-label light">
+        <span class="label-dot"></span>
+        <span>OUR MENU</span>
+    </div>
+    <h2 class="menu-heading">Good <em>Food</em> For You</h2>
+    <p class="menu-sub">Handcrafted with passion, served with a smile. Explore our curated selection of gourmet bites and signature drinks.</p>
+
+    <div class="menu-carousel-wrapper">
+        <button class="carousel-btn prev" id="menuPrev" aria-label="Previous">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="menu-carousel-track">
+            <div class="menu-carousel" id="menuCarousel">
+                <div class="menu-card">
+                    <img src="images/menu1.png" alt="Menu Page 1">
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu2.png" alt="Menu Page 2">
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu3.png" alt="Menu Page 3">
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu4.png" alt="Menu Page 4">
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu5.png" alt="Menu Page 5">
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu6.png" alt="Menu Page 6">
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu7.png" alt="Menu Page 7">
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu8.png" alt="Menu Page 8">
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu9.png" alt="Menu Page 9">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-btn next" id="menuNext" aria-label="Next">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+</section>
+
+<section id="order" class="order-section">
+    <div class="section-label">
+        <span class="label-dot"></span>
+        <span>ORDER</span>
+    </div>
+    <h2 class="order-heading">What People <em>Say</em></h2>
+    <p class="order-sub">Don't just take our word for it. Here's what our guests love about IKVITI.</p>
+
+    <div class="testimonials-grid">
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Great ambience and a comfortable space to relax or get some work done."</p>
+            <div class="testimonial-author">
+                <div class="author-avatar">K</div>
+                <div><strong>Kshitij</strong><br><span>2 months ago</span></div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Really good specialty coffee and a great crew serving it. Highly recommend if you’re in the area!"</p>
+            <div class="testimonial-author">
+                <div class="author-avatar">K</div>
+                <div><strong>Kasia</strong><br><span>1 week ago</span></div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="stars">★★★★<span class="star-empty">★</span></div>
+            <p>"Nice cozy little place. Menu though limited but is freshly prepared and delicious, small place for a nice quiet coffee and light eats."</p>
+            <div class="testimonial-author">
+                <div class="author-avatar">V</div>
+                <div><strong>Vic</strong><br><span>7 months ago</span></div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"We had ordered Chicken Roulade and Caeser Salad... The chicken Roulade was absolutely amazing, delicious gravy and well cooked veggies."</p>
+            <div class="testimonial-author">
+                <div class="author-avatar">D</div>
+                <div><strong>Deep</strong><br><span>1 month ago</span></div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Very quiet and calm place to chill over a coffee."</p>
+            <div class="testimonial-author">
+                <div class="author-avatar">S</div>
+                <div><strong>Swarnava</strong><br><span>4 months ago</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="order-cta">
+        <h3>Ready to taste the magic?</h3>
+        <a href="https://ikviti.dotpe.in" target="_blank" class="btn-primary btn-lg">Order Online Now</a>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="section-label light">
+        <span class="label-dot"></span>
+        <span>CONTACT US</span>
+    </div>
+    <div class="contact-grid">
+        <div class="contact-info">
+            <h2 class="menu-heading">Get In <em>Touch</em></h2>
+            <p>We'd love to hear from you. Drop by for a cup or reach out — we're always brewing something new.</p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <div>
+                        <strong>Phone</strong>
+                        <a href="tel:+919818469376">+91 98184 69376</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <div>
+                        <strong>Address</strong>
+                        <span>SDA Market, Hauz Khas,<br>New Delhi, Delhi 110016</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.8!2d77.1935!3d28.5494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2250b5765d7%3A0x6a4e6e1b1f6db0e5!2sSDA%20Market%2C%20Hauz%20Khas%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="images/logo.png" alt="IKVITI" class="footer-logo">
+            <p>Crafted with love in Hauz Khas.<br>Your happy place awaits.</p>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-hours">
+            <h4>Hours</h4>
+            <p>Mon – Fri: 8:00 AM – 10:00 PM</p>
+            <p>Sat – Sun: 9:00 AM – 11:00 PM</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; IKVITI. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
