@@ -211,7 +211,6 @@ nav.scrolled{
 .marquee-track span{
     font-size:13px;letter-spacing:2px;
     color:var(--cream);
-    text-transform:uppercase;
     font-weight:400;
 }
 
